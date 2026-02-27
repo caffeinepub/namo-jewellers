@@ -1,16 +1,49 @@
-# Specification
+# Namo Jewellers — Silver Redesign
 
-## Summary
-**Goal:** Build a static brochure website for Namo Jewellers, a one gram gold jewellery brand, with a premium elegant visual theme.
+## Current State
+A One Gram Gold jewellery shop website with a gold/charcoal luxury theme. All copy, images, colours, and product catalogue reference gold jewellery. WhatsApp number is a placeholder (`919999999999`) and the address/contact links are also placeholders.
 
-**Planned changes:**
-- Sticky minimal navigation bar with brand name and section links
-- Hero section with brand name, tagline, subtitle, three CTA buttons (Shop Now, Visit Store, Call Us), 4.7-star rating badge, and store hours; uses hero banner image as background
-- About Us section with brand story, trust messaging, 4.7-star rating highlight, and about illustration image
-- Collections section with five category cards (Bridal Collection, Necklaces, Earrings, Bangles & Bracelets, Daily Wear Jewellery), each showing emoji, name, description, and corresponding collection image
-- Why Choose Namo Jewellers section listing six selling points with checkmark icons
-- Customer Testimonials section with three quotes, star ratings, and prominent 4.7 overall rating display
-- Visit Us / Contact section with store hours, Call Us and Get Directions buttons, closing tagline, and contact banner image
-- Warm gold, champagne, and ivory color palette with dark accents; serif display font for headings, clean sans-serif for body; spacious layout with gold accent dividers throughout
+## Requested Changes (Diff)
 
-**User-visible outcome:** Visitors can browse a fully styled, multi-section showcase website for Namo Jewellers presenting the brand story, jewellery collections, customer testimonials, and store contact details — with no e-commerce functionality.
+### Add
+- Real WhatsApp number: +91 91770 66512 (formatted as `919177066512`)
+- Real address in ContactSection and Footer: Shop No. 1300, Mahaveer Arcade, Pioneer Bazar, Rizala Bazar, Sai Ram Colony, Bolarum, Secunderabad, Telangana 500010
+- Google Maps link pointing to the actual address
+- Call link: `tel:+919177066512`
+- Silver colour palette tokens (silver, silver-light, silver-dark, moonstone) replacing gold tokens in tailwind config
+- New silver-themed AI-generated images for hero banner, product catalogue (6 items), collections (5 cards), about illustration, and contact banner
+
+### Modify
+- All copy changed from "One Gram Gold" to "Sterling Silver" / "Silver Jewellery"
+- tagline: "A Hub of High Fashion Silver Jewellery"
+- HeroSection tagline, sub-tagline, and CTA phone link updated
+- CollectionsSection descriptions updated to silver context
+- CatalogueSection product names updated to silver designs (e.g. "Silver Bridal Set", "Oxidised Silver Necklace", etc.)
+- AboutSection copy updated for silver jewellery positioning
+- ContactSection tagline and copy updated
+- Footer brand description updated
+- WhatsApp number constant updated in CatalogueSection and WhatsAppFloat
+- Colour references: replace `gold`/`champagne` design tokens with `silver`/`moonstone` equivalents throughout all component classNames
+- tailwind.config.js: replace gold/champagne/ivory/charcoal palette with silver palette
+- All existing gold-coloured accents, dividers, badges changed to silver palette
+
+### Remove
+- Placeholder phone `tel:+91` replaced with real number
+- Placeholder Google Maps link replaced with real address search link
+- Placeholder WhatsApp number `919999999999`
+
+## Implementation Plan
+1. Update tailwind.config.js with silver palette tokens
+2. Generate new silver-themed images via generate_image tool
+3. Update CatalogueSection: product names, images, WhatsApp number
+4. Update WhatsAppFloat: WhatsApp number
+5. Update HeroSection: copy + phone link + image reference
+6. Update AboutSection: copy
+7. Update CollectionsSection: copy + image references
+8. Update ContactSection: address, phone, Maps link, copy
+9. Update Footer: address, phone, collections list
+
+## UX Notes
+- Silver palette: deep dark background (near-black with cool blue undertone), silver accent instead of gold, off-white "moonstone" text
+- Maintain same elegant layout and component structure — only theme + content changes
+- All WhatsApp enquiry links must use real number 919177066512
