@@ -1,0 +1,140 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-section-with-the-namo-jewellers-brand-name-tagline-a-hub-of-high-fashion-one-gram-gold-jewellery-subtitle-premium-look-affordable-price-timeless-elegance-three-cta-buttons-shop-now-visit-store-call-us-a-4-7-star-rating-badge-and-store-hours-open-daily-till-9-30-pm-render-the-generated-hero-banner-image-as-the-section-background",
+      "featureTitle": "Create a hero section with the Namo Jewellers brand name, tagline ('A Hub of High Fashion One Gram Gold Jewellery'), subtitle ('Premium Look. Affordable Price. Timeless Elegance.'), three CTA buttons (Shop Now, Visit Store, Call Us), a 4.7-star rating badge, and store hours (Open Daily – Till 9:30 PM). Render the generated hero banner image as the section background.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-us-section-that-describes-namo-jewellers-as-a-trusted-destination-for-high-fashion-one-gram-gold-jewellery-include-messaging-about-combining-traditional-beauty-with-modern-trends-affordability-and-the-4-7-star-customer-rating-as-a-trust-signal-render-the-generated-about-illustration-image-in-this-section",
+      "featureTitle": "Create an About Us section that describes Namo Jewellers as a trusted destination for high fashion One Gram Gold Jewellery. Include messaging about combining traditional beauty with modern trends, affordability, and the 4.7-star customer rating as a trust signal. Render the generated 'about' illustration image in this section.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-collections-section-with-five-category-cards-bridal-collection-necklaces-earrings-bangles-bracelets-and-daily-wear-jewellery-each-card-should-display-its-emoji-icon-category-name-and-a-short-description-use-the-generated-collection-card-images-as-visuals-for-each-category",
+      "featureTitle": "Create a Collections section with five category cards: Bridal Collection, Necklaces, Earrings, Bangles & Bracelets, and Daily Wear Jewellery. Each card should display its emoji icon, category name, and a short description. Use the generated collection card images as visuals for each category.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/CollectionsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-why-choose-namo-jewellers-section-listing-six-key-selling-points-high-fashion-designs-premium-gold-finish-budget-friendly-prices-latest-trend-collections-trusted-by-happy-customers-and-friendly-customer-service-display-each-point-with-a-checkmark-icon-and-short-label",
+      "featureTitle": "Create a 'Why Choose Namo Jewellers?' section listing six key selling points: High Fashion Designs, Premium Gold Finish, Budget Friendly Prices, Latest Trend Collections, Trusted by Happy Customers, and Friendly Customer Service. Display each point with a checkmark icon and short label.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WhyChooseSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-customer-testimonials-section-displaying-three-customer-quotes-with-star-ratings-and-a-prominent-overall-4-7-star-rating-display-with-a-label-such-as-rated-4-7-by-our-happy-customers",
+      "featureTitle": "Create a Customer Testimonials section displaying three customer quotes with star ratings, and a prominent overall 4.7-star rating display with a label such as 'Rated 4.7 by Our Happy Customers'.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/TestimonialsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-visit-us-contact-section-with-store-hours-open-till-9-30-pm-a-call-us-cta-button-a-get-directions-cta-button-and-a-closing-tagline-shine-bright-shine-affordable-render-the-generated-store-contact-banner-image-in-this-section",
+      "featureTitle": "Create a Visit Us / Contact section with store hours (Open Till 9:30 PM), a Call Us CTA button, a Get Directions CTA button, and a closing tagline ('Shine Bright. Shine Affordable.'). Render the generated store/contact banner image in this section.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-premium-elegant-affordable-luxury-visual-theme-throughout-the-entire-site-use-a-warm-gold-and-deep-champagne-rich-ivory-color-palette-with-dark-accents-deep-charcoal-or-near-black-typography-should-feel-sophisticated-and-feminine-use-a-serif-or-editorial-display-font-for-headings-and-a-clean-sans-serif-for-body-text-the-layout-should-feel-spacious-with-generous-padding-and-gold-accent-dividers-or-ornamental-details-navigation-should-be-minimal-and-sticky",
+      "featureTitle": "Apply a premium, elegant, affordable-luxury visual theme throughout the entire site. Use a warm gold and deep champagne / rich ivory color palette with dark accents (deep charcoal or near-black). Typography should feel sophisticated and feminine — use a serif or editorial display font for headings and a clean sans-serif for body text. The layout should feel spacious, with generous padding and gold accent dividers or ornamental details. Navigation should be minimal and sticky.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

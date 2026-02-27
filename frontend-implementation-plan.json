@@ -1,0 +1,176 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Namo Jewellers — One Gram Gold Jewellery Business Website",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create hero section with brand name, tagline, subtitle, three CTA buttons, rating badge, store hours, and hero banner background image",
+      "acceptanceCriteria": [
+        "Brand name 'NAMO JEWELLERS' is prominently displayed",
+        "Tagline and subtitle are visible below the brand name",
+        "All three CTA buttons (Shop Now, Visit Store, Call Us) are rendered and styled consistently",
+        "4.7-star rating badge is visible in the hero section",
+        "Store hours are shown in the hero section",
+        "Hero banner image is used as background"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "create",
+          "description": "Create hero section component with brand name 'NAMO JEWELLERS', tagline 'A Hub of High Fashion One Gram Gold Jewellery', subtitle 'Premium Look. Affordable Price. Timeless Elegance.', three CTA buttons (Shop Now, Visit Store, Call Us), 4.7-star rating badge, and store hours text 'Open Daily – Till 9:30 PM'. Use the generated hero banner image at frontend/public/assets/generated/hero-banner.dim_1440x700.png as the section background."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the HeroSection component at the top of the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create About Us section with brand story, trust messaging, 4.7-star rating highlight, and about illustration image",
+      "acceptanceCriteria": [
+        "Section heading 'About Us' is displayed",
+        "Brand story and trust message copy is present",
+        "4.7-star rating is visually highlighted",
+        "About illustration image is rendered alongside the text"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "create",
+          "description": "Create About Us section component with section heading 'About Us', brand story text describing Namo Jewellers as a trusted destination for high fashion One Gram Gold Jewellery combining traditional beauty with modern trends and affordability, 4.7-star customer rating as a trust signal, and render the generated about illustration image at frontend/public/assets/generated/about-illustration.dim_800x600.png alongside the text"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the AboutSection component below the HeroSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create Collections section with five category cards displaying emoji icons, names, descriptions, and generated category images",
+      "acceptanceCriteria": [
+        "All five collection categories are displayed as cards",
+        "Each card shows the category icon, name, and description",
+        "Each card uses the corresponding generated image as its visual",
+        "Cards are arranged in a responsive grid layout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/CollectionsSection.tsx",
+          "operation": "create",
+          "description": "Create Collections section component with section heading 'Our Collections' and five category cards in a responsive grid: Bridal Collection (👑 icon, frontend/public/assets/generated/collection-bridal.dim_600x400.png), Necklaces (💎 icon, frontend/public/assets/generated/collection-necklaces.dim_600x400.png), Earrings (✨ icon, frontend/public/assets/generated/collection-earrings.dim_600x400.png), Bangles & Bracelets (💫 icon, frontend/public/assets/generated/collection-bangles.dim_600x400.png), and Daily Wear Jewellery (🌸 icon, frontend/public/assets/generated/collection-dailywear.dim_600x400.png). Each card displays its emoji icon, category name, short description, and corresponding generated image"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the CollectionsSection component below the AboutSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Why Choose section listing six selling points with checkmark icons",
+      "acceptanceCriteria": [
+        "Section heading 'Why Choose Namo Jewellers?' is displayed",
+        "All six selling points are listed with checkmark icons",
+        "A closing line about luxury style at affordable prices is included",
+        "Layout is responsive and visually balanced"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhyChooseSection.tsx",
+          "operation": "create",
+          "description": "Create Why Choose section component with section heading 'Why Choose Namo Jewellers?' and six selling points each with a checkmark icon: High Fashion Designs, Premium Gold Finish, Budget Friendly Prices, Latest Trend Collections, Trusted by Happy Customers, and Friendly Customer Service. Include a closing line about luxury style at affordable prices in a responsive, visually balanced layout"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the WhyChooseSection component below the CollectionsSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create Customer Testimonials section with three customer quotes, star ratings, and overall 4.7-star rating display",
+      "acceptanceCriteria": [
+        "Three testimonial quotes are displayed with star ratings",
+        "Overall 4.7-star rating is prominently shown",
+        "Section heading such as 'What Our Customers Say' is present",
+        "Layout is visually appealing and readable"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TestimonialsSection.tsx",
+          "operation": "create",
+          "description": "Create Customer Testimonials section component with section heading 'What Our Customers Say', three customer testimonial quotes ('Beautiful designs at very affordable prices!', 'Best place for trendy one gram gold jewellery.', 'Excellent quality and friendly service.') each with star ratings, and a prominent overall 4.7-star rating display with label 'Rated 4.7 by Our Happy Customers' in a visually appealing and readable layout"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the TestimonialsSection component below the WhyChooseSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create Visit Us / Contact section with store hours, Call Us and Get Directions CTA buttons, closing tagline, and contact banner image",
+      "acceptanceCriteria": [
+        "Section heading 'Visit Us Today' is displayed",
+        "Store hours are shown",
+        "Call Us and Get Directions buttons are present and styled",
+        "Closing tagline is displayed at the bottom of the section",
+        "Contact banner image is rendered in the section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "create",
+          "description": "Create Visit Us / Contact section component with section heading 'Visit Us Today', store hours text 'Open Till 9:30 PM', Call Us and Get Directions CTA buttons, closing tagline 'Shine Bright. Shine Affordable.', and render the generated contact banner image at frontend/public/assets/generated/contact-banner.dim_1440x500.png in the section"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the ContactSection component below the TestimonialsSection in the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Apply premium, elegant, affordable-luxury visual theme with warm gold and champagne color palette, sophisticated typography, spacious layout, and sticky minimal navigation",
+      "acceptanceCriteria": [
+        "Gold and ivory/champagne color palette is applied consistently across all sections",
+        "Headings use a serif or editorial display font",
+        "Body text uses a clean sans-serif font",
+        "Sticky minimal navigation is present",
+        "Spacing and layout feel luxurious and spacious",
+        "Gold accent details (dividers, borders, icons) are used consistently"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Apply global premium luxury theme styling with warm gold (#D4AF37, #F4E4C1) and deep champagne / rich ivory color palette with dark accents (deep charcoal #1A1A1A or near-black). Configure CSS custom properties for brand colors, generous spacing values, and gold accent colors for dividers and ornamental details. Import Google Fonts or similar for a serif or editorial display font (e.g., Playfair Display, Cormorant Garamond) for headings and a clean sans-serif font (e.g., Inter, Lato) for body text"
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind theme with custom color palette (warm gold, champagne, ivory, dark charcoal), custom font families (serif/editorial display for headings, sans-serif for body), extended spacing scale for luxurious generous padding, and custom utilities for gold accent borders and dividers"
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "create",
+          "description": "Create sticky minimal navigation component with brand logo/name, minimal menu items if needed, and styling consistent with the premium luxury theme using gold accents and spacious layout"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Navigation component at the top of the application layout above all sections"
+        }
+      ]
+    }
+  ]
+}

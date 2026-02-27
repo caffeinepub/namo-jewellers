@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point for the ICP canister.",
+  "feature_evidence.json": "Feature evidence report mapping each UI feature (hero, about, collections, why-choose, etc.) to their implementing source files, components, and test IDs.",
+  "frontend/index.css": "Global Tailwind CSS stylesheet defining CSS custom properties for light and dark theme color tokens (background, foreground, gold, etc.).",
+  "frontend/index.html": "HTML entry point for the Namo Jewellers React app, mounting the app into a root div and loading the main TSX module.",
+  "frontend/src/App.tsx": "Root React component that composes the full page layout by rendering Navigation, HeroSection, AboutSection, CollectionsSection, WhyChooseSection, TestimonialsSection, ContactSection, and Footer.",
+  "frontend/src/components/AboutSection.tsx": "About Us section component displaying Namo Jewellers' brand story, a generated illustration image, and a stats grid with rating, customer count, quality, and design metrics.",
+  "frontend/src/components/CollectionsSection.tsx": "Collections section displaying five jewellery category cards (Bridal, Necklaces, Earrings, Bangles & Bracelets, Daily Wear) with emoji icons, descriptions, and generated category images.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with a full-width generated banner image background, store hours, and CTA buttons for calling and getting directions.",
+  "frontend/src/components/Footer.tsx": "Site footer with brand identity, quick navigation links, collection links, and contact/hours info arranged in a four-column grid.",
+  "frontend/src/components/HeroSection.tsx": "Renders the full-screen hero section for Namo Jewellers with a background image, brand name, tagline, rating badge, and CTA buttons that smooth-scroll to other sections.",
+  "frontend/src/components/Navigation.tsx": "Fixed top navigation bar with scroll-aware background, smooth-scroll nav links, a call CTA, and a responsive mobile hamburger menu.",
+  "frontend/src/components/TestimonialsSection.tsx": "Displays a customer testimonials section with an overall 4.7-star rating summary and three individual review cards.",
+  "frontend/src/components/WhyChooseSection.tsx": "Renders a 'Why Choose Us' section listing six value propositions as icon-and-text cards, plus a closing brand quote.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries whenever the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an Internet Identity authentication context and hook, managing AuthClient creation, login/logout flow, and persisting identity across page reloads.",
+  "frontend/src/index.css": "Global CSS file that imports Google Fonts (Cormorant Garamond, Jost), sets up Tailwind directives, and defines a warm gold luxury design system with CSS custom properties for light/dark modes plus utility classes for brand colors.",
+  "frontend/src/main.tsx": "React app entry point that wraps the App component with QueryClientProvider (React Query) and InternetIdentityProvider before mounting to the DOM.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with brand fonts, oklch-based color tokens (gold, champagne, ivory, charcoal), custom shadows, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state manifest (v3) describing a single-page premium website for Namo Jewellers with sections for hero, about, collections, testimonials, and contact, along with required image specs and existing feature definitions."
+}

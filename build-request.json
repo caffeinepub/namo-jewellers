@@ -1,0 +1,194 @@
+{
+  "kind": "build_request",
+  "title": "Namo Jewellers — One Gram Gold Jewellery Business Website",
+  "projectName": "Namo Jewellers",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with the Namo Jewellers brand name, tagline ('A Hub of High Fashion One Gram Gold Jewellery'), subtitle ('Premium Look. Affordable Price. Timeless Elegance.'), three CTA buttons (Shop Now, Visit Store, Call Us), a 4.7-star rating badge, and store hours (Open Daily – Till 9:30 PM). Render the generated hero banner image as the section background.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "💎 NAMO JEWELLERS",
+          "Premium Look. Affordable Price. Timeless Elegance.",
+          "[Shop Now]   [Visit Store]   [Call Us]",
+          "Open Daily – Till 9:30 PM",
+          "Rated 4.7 by Our Happy Customers"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Brand name 'NAMO JEWELLERS' is prominently displayed",
+        "Tagline and subtitle are visible below the brand name",
+        "All three CTA buttons (Shop Now, Visit Store, Call Us) are rendered and styled consistently",
+        "4.7-star rating badge is visible in the hero section",
+        "Store hours are shown in the hero section",
+        "Hero banner image is used as background"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About Us section that describes Namo Jewellers as a trusted destination for high fashion One Gram Gold Jewellery. Include messaging about combining traditional beauty with modern trends, affordability, and the 4.7-star customer rating as a trust signal. Render the generated 'about' illustration image in this section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Welcome to Namo Jewellers, your trusted destination for high fashion One Gram Gold Jewellery.",
+          "We believe every woman deserves to shine with elegance and confidence.",
+          "4.7-star customer rating"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section heading 'About Us' is displayed",
+        "Brand story and trust message copy is present",
+        "4.7-star rating is visually highlighted",
+        "About illustration image is rendered alongside the text"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Collections section with five category cards: Bridal Collection, Necklaces, Earrings, Bangles & Bracelets, and Daily Wear Jewellery. Each card should display its emoji icon, category name, and a short description. Use the generated collection card images as visuals for each category.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "👑 Bridal Collection",
+          "💎 Necklaces",
+          "✨ Earrings",
+          "💫 Bangles & Bracelets",
+          "🌸 Daily Wear Jewellery"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All five collection categories are displayed as cards",
+        "Each card shows the category icon, name, and description",
+        "Each card uses the corresponding generated image as its visual",
+        "Cards are arranged in a responsive grid layout"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a 'Why Choose Namo Jewellers?' section listing six key selling points: High Fashion Designs, Premium Gold Finish, Budget Friendly Prices, Latest Trend Collections, Trusted by Happy Customers, and Friendly Customer Service. Display each point with a checkmark icon and short label.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "✔ High Fashion Designs",
+          "✔ Premium Gold Finish",
+          "✔ Budget Friendly Prices",
+          "✔ Latest Trend Collections",
+          "✔ Trusted by Happy Customers",
+          "✔ Friendly Customer Service"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section heading 'Why Choose Namo Jewellers?' is displayed",
+        "All six selling points are listed with checkmark icons",
+        "A closing line about luxury style at affordable prices is included",
+        "Layout is responsive and visually balanced"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Customer Testimonials section displaying three customer quotes with star ratings, and a prominent overall 4.7-star rating display with a label such as 'Rated 4.7 by Our Happy Customers'.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "\"Beautiful designs at very affordable prices!\"",
+          "\"Best place for trendy one gram gold jewellery.\"",
+          "\"Excellent quality and friendly service.\"",
+          "Our 4.7 rating reflects the love and trust of our valued customers."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Three testimonial quotes are displayed with star ratings",
+        "Overall 4.7-star rating is prominently shown",
+        "Section heading such as 'What Our Customers Say' is present",
+        "Layout is visually appealing and readable"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Visit Us / Contact section with store hours (Open Till 9:30 PM), a Call Us CTA button, a Get Directions CTA button, and a closing tagline ('Shine Bright. Shine Affordable.'). Render the generated store/contact banner image in this section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Open Till 9:30 PM",
+          "Call Now for Latest Collections",
+          "Get Directions & Visit Our Store",
+          "✨ Shine Bright. Shine Affordable. ✨"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section heading 'Visit Us Today' is displayed",
+        "Store hours are shown",
+        "Call Us and Get Directions buttons are present and styled",
+        "Closing tagline is displayed at the bottom of the section",
+        "Contact banner image is rendered in the section"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Apply a premium, elegant, affordable-luxury visual theme throughout the entire site. Use a warm gold and deep champagne / rich ivory color palette with dark accents (deep charcoal or near-black). Typography should feel sophisticated and feminine — use a serif or editorial display font for headings and a clean sans-serif for body text. The layout should feel spacious, with generous padding and gold accent dividers or ornamental details. Navigation should be minimal and sticky.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Premium Look. Affordable Price. Timeless Elegance.",
+          "premium luxury brand style",
+          "high-class content"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Gold and ivory/champagne color palette is applied consistently across all sections",
+        "Headings use a serif or editorial display font",
+        "Body text uses a clean sans-serif font",
+        "Sticky minimal navigation is present",
+        "Spacing and layout feel luxurious and spacious",
+        "Gold accent details (dividers, borders, icons) are used consistently"
+      ]
+    }
+  ],
+  "constraints": [
+    "All content must be in English",
+    "No e-commerce or payment features — this is a showcase/brochure website only",
+    "No backend data storage required; all content is static"
+  ],
+  "nonGoals": [
+    "Online shopping cart or checkout functionality",
+    "User authentication or accounts",
+    "Product inventory management",
+    "SEO meta optimization beyond basic HTML structure",
+    "Multi-language support"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Luxurious hero banner with warm gold bokeh lights, scattered golden jewellery silhouettes (necklace, earrings, bangles) on a deep dark background with a soft radial glow effect (hero-banner.dim_1440x700.png)",
+      "Elegant flat-lay of one gram gold jewellery pieces arranged on a rich dark velvet fabric, warm golden tones (about-illustration.dim_800x600.png)",
+      "Ornate bridal jewellery set — necklace, earrings, maang tikka on dark velvet, gold and red tones (collection-bridal.dim_600x400.png)",
+      "Elegant layered gold necklaces on a light champagne fabric background (collection-necklaces.dim_600x400.png)",
+      "Assorted gold earrings — studs, jhumkas, chandbali — arranged decoratively on ivory background (collection-earrings.dim_600x400.png)",
+      "Gold bangles and bracelets stacked artfully on a dark marble surface (collection-bangles.dim_600x400.png)",
+      "Lightweight daily-wear gold jewellery set — simple necklace and small earrings on a soft pastel background (collection-dailywear.dim_600x400.png)",
+      "Warm-toned storefront ambiance image with golden lighting, jewellery display cases, and an inviting luxurious interior (contact-banner.dim_1440x500.png)"
+    ],
+    "edits": []
+  }
+}

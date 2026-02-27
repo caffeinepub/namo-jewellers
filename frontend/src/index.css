@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0rem;
+
+    /* Core palette — warm gold luxury */
+    --gold:           0.78 0.13 85;
+    --gold-light:     0.85 0.10 85;
+    --gold-dark:      0.65 0.14 75;
+    --champagne:      0.92 0.04 85;
+    --ivory:          0.97 0.02 90;
+    --charcoal:       0.16 0.01 260;
+    --charcoal-light: 0.20 0.01 260;
+
+    /* Semantic tokens — light mode (ivory base) */
+    --background:          0.97 0.02 90;
+    --foreground:          0.16 0.01 260;
+    --card:                0.99 0.01 90;
+    --card-foreground:     0.16 0.01 260;
+    --popover:             0.99 0.01 90;
+    --popover-foreground:  0.16 0.01 260;
+    --primary:             0.78 0.13 85;
+    --primary-foreground:  0.16 0.01 260;
+    --secondary:           0.92 0.04 85;
+    --secondary-foreground:0.16 0.01 260;
+    --muted:               0.93 0.02 85;
+    --muted-foreground:    0.50 0.02 260;
+    --accent:              0.92 0.04 85;
+    --accent-foreground:   0.16 0.01 260;
+    --destructive:         0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border:              0.88 0.04 85;
+    --input:               0.88 0.04 85;
+    --ring:                0.78 0.13 85;
+    --chart-1: 0.78 0.13 85;
+    --chart-2: 0.65 0.14 75;
+    --chart-3: 0.85 0.10 85;
+    --chart-4: 0.92 0.04 85;
+    --chart-5: 0.50 0.02 260;
+    --sidebar: 0.97 0.02 90;
+    --sidebar-foreground: 0.16 0.01 260;
+    --sidebar-primary: 0.78 0.13 85;
+    --sidebar-primary-foreground: 0.16 0.01 260;
+    --sidebar-accent: 0.92 0.04 85;
+    --sidebar-accent-foreground: 0.16 0.01 260;
+    --sidebar-border: 0.88 0.04 85;
+    --sidebar-ring: 0.78 0.13 85;
+  }
+
+  .dark {
+    --background:          0.16 0.01 260;
+    --foreground:          0.97 0.02 90;
+    --card:                0.20 0.01 260;
+    --card-foreground:     0.97 0.02 90;
+    --popover:             0.20 0.01 260;
+    --popover-foreground:  0.97 0.02 90;
+    --primary:             0.78 0.13 85;
+    --primary-foreground:  0.16 0.01 260;
+    --secondary:           0.24 0.01 260;
+    --secondary-foreground:0.97 0.02 90;
+    --muted:               0.24 0.01 260;
+    --muted-foreground:    0.65 0.02 260;
+    --accent:              0.24 0.01 260;
+    --accent-foreground:   0.97 0.02 90;
+    --destructive:         0.704 0.191 22.216;
+    --destructive-foreground: 0.97 0.02 90;
+    --border:              1 0 0 / 10%;
+    --input:               1 0 0 / 15%;
+    --ring:                0.78 0.13 85;
+    --sidebar: 0.20 0.01 260;
+    --sidebar-foreground: 0.97 0.02 90;
+    --sidebar-primary: 0.78 0.13 85;
+    --sidebar-primary-foreground: 0.16 0.01 260;
+    --sidebar-accent: 0.24 0.01 260;
+    --sidebar-accent-foreground: 0.97 0.02 90;
+    --sidebar-border: 1 0 0 / 10%;
+    --sidebar-ring: 0.78 0.13 85;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Jost', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-body {
+    font-family: 'Jost', system-ui, sans-serif;
+  }
+  .text-gold {
+    color: oklch(0.78 0.13 85);
+  }
+  .text-champagne {
+    color: oklch(0.92 0.04 85);
+  }
+  .text-ivory {
+    color: oklch(0.97 0.02 90);
+  }
+  .text-charcoal {
+    color: oklch(0.16 0.01 260);
+  }
+  .bg-gold {
+    background-color: oklch(0.78 0.13 85);
+  }
+  .bg-gold-light {
+    background-color: oklch(0.85 0.10 85);
+  }
+  .bg-champagne {
+    background-color: oklch(0.92 0.04 85);
+  }
+  .bg-ivory {
+    background-color: oklch(0.97 0.02 90);
+  }
+  .bg-charcoal {
+    background-color: oklch(0.16 0.01 260);
+  }
+  .bg-charcoal-light {
+    background-color: oklch(0.20 0.01 260);
+  }
+  .border-gold {
+    border-color: oklch(0.78 0.13 85);
+  }
+  .fill-gold {
+    fill: oklch(0.78 0.13 85);
+  }
+  .shadow-gold-sm {
+    box-shadow: 0 2px 20px oklch(0.78 0.13 85 / 0.15);
+  }
+  .shadow-gold-md {
+    box-shadow: 0 4px 30px oklch(0.78 0.13 85 / 0.25);
+  }
+}
